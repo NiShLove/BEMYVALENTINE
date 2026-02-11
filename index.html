@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+            padding: 1em;
+        }
+        .heart {
+            font-size: 100px;
+            color: red;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Will You Be My Valentine?</h1>
+        <p class="heart">❤️</p>
+        <p>I have loved you for a thousand years, and I will love you for a thousand more.</p>
+        <button onclick="showProposal()">Click to Propose!</button>
+    </div>
+    <script>
+        function showProposal() {
+            alert("I love you! Will you marry me?");
+        }
+    </script>
+</body>
+</html>
